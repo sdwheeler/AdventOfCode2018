@@ -69,7 +69,7 @@ foreach ($n in $sleepy.name) {
             }
         }
         $g = [int32]($n -split '#')[-1]
-        "$n`tminute = $sleepminute`tAnswer = $($g*$sleepminute)"
+        "$n`tminute = $sleepminute`tcount = $max`tAnswer = $($g*$sleepminute)"
     }
 }
 
